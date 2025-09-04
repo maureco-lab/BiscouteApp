@@ -9,33 +9,33 @@
     tools:context=".SplashActivity">
 
 
-
     <ImageView
-        android:layout_centerInParent="true"
-        android:scaleType="centerCrop"
         android:id="@+id/ImgLogoSplash"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
         android:src="@drawable/logo" />
 
     <TextView
-        android:layout_centerInParent="true"
         android:id="@+id/txtCookie"
-        android:textColor="#844B36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cookie"
         android:layout_below="@id/ImgLogoSplash"
-        android:textSize="25sp"/>
+        android:layout_centerInParent="true"
+        android:text="Cookiê"
+        android:fontFamily="@font/dancingscriptvariablefontwght"
+        android:textColor="#844B36"
+        android:textSize="40dp" />
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
         android:id="@+id/pgbSplash"
         android:layout_width="250dp"
-        app:indicatorColor="#78412D"
         android:layout_height="wrap_content"
-        android:indeterminate="true"
-        android:layout_marginTop="15dp"
         android:layout_below="@id/txtCookie"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:indeterminate="true"
+        app:indicatorColor="#78412D" />
 
 </RelativeLayout>
